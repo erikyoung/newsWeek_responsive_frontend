@@ -1,176 +1,312 @@
-/* Main Content */
+ /* Main Content  */
 
-.main-content {
-  overflow-y:visible;
-  position:relative;
-  height:100px;
+ body {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #333;
+     
+ }
+
+ .main-content {
+     overflow-y: visible;
+     position: relative;
+     height: 100px;
+ }
+
+
+ .row {
+     margin-right: -15px;
+     margin-left: -15px;
+ }
+
+ 
+
+ .category-main  {
+     
+     text-transform: uppercase;
+     text-align: center;
+
+ }
+
+ .category-main .us-headline {
+     color:red;
+ }
+
+ .category-main .us-headline:hover {
+  color: #337ab7;
+
+ }
+
+
+
+ .main-pic {
+     width: 100%;
+     margin-top: 0;
+     border-width: thick;
+
+ }
+
+
+
+ #story {
+     text-transform: uppercase;
+     text-align: center;
+     color:black;
+
+ }
+
+ #story .justice {
+     color:black;
+
+ }
+
+ #story .justice:hover {
+  color: #337ab7;
+  
+ }
+
+
+
+ 
+
+ li span {
+     color: black;
+ }
+
+ .main-horizontal-divider {
+     width: 100%;
+     border-bottom: 1px solid #f2f2f2;
+ }
+
+
+
+ #headline-quote {
+     color: black;
+     opacity: 0.7;
+     text-align: center;
+     font-size: 16px;
+     padding-bottom: 10px;
+
+ }
+
+ .main {
+     padding-left: 0;
+     padding-right: 0;
+     top: -20px;
+ }
+
+ 
+.content-background {
+	position: relative;
+	padding-bottom: 30px;
 }
 
-.main {
-  padding-left: 0px;
-  padding-right: 0px;
-  top: -20px;
-}
+ .content-divider {
+     margin-left: 20px;
+ }
 
-.img-responsive {
-  width: 100%;
-}
+ .img-responsive {
+     width: 100%;
+     margin-bottom: 0;
+ }
 
-.info-wrapper {
+ .info-wrapper {
+     position: relative;
+      
+
+ }
+
+ 
+
+ #bottom-headlines {
+     color: red;
+     text-align: center;
+ }
+
+ #bottom-major-headline {
+     font-weight: bold;
+     font-size: 25px;
+ }
+
+ .final-quote-bottom {
+
+     font-size: 13px;
+ }
+
+ #bottom-right-headline {
+     color: #00B7FF;
+     ;
+     text-align: center;
+ }
+
+ #best-universities {
+     font-weight: bold;
+     padding-left: 25px;
+     font-size: 25px;
+ }
+
+ .final-right-quote {
+
+     font-size: 13px;
+     margin-left: 20px;
+     
+     display: block;
+ }
+
+ 
+
+ 
+
+ .right-side-info {
+     background-color: #e6ffff;
+    margin-bottom: 20px;
+     padding-bottom: 20px;
+ }
+
+ .left-bottom-content {
+     padding-left: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+ }
+
+
+
+ .us {
+     color: red;
+     text-align: center;
+     margin-top: 15px;
+     font-size: 27px;
+     text-decoration: none;
+ }
+
+ .us:hover {
+
+     color: #337ab7;
+     text-decoration: none;
+ }
+
+ 
+
+ 
+
+ .us-style {
+
+     color: black;
+     text-align: center;
+     margin-top: 15px;
+     font-size: 24px;
+     text-decoration: none;
+ }
+
+ .us-style:hover {
+     color: #337ab7;
+     
+ }
+
+ .sponsor {
+     color: #00B7FF;
+     text-decoration: none;
+ }
+
+ .sponsor:hover {
+     color: #337ab7;
+     text-decoration: none;
+ }
+
+ 
+ .sponsor-style {
+     color: black;
+     text-align: center;
+     margin-top: 15px;
+     font-size: 24px;
+     text-decoration: none;
+ }
+
+ .sponsor-style:hover {
+     color: #337ab7;
+     text-decoration: none;
+ }
+
+ .sub-box {
+  border-bottom: 1px solid #f2f2f2;
+  
+ }
+
+ .info {
+  border-top: 5px solid #ff0500;
+  padding: 10px 30px 20px;
   position: relative;
-}
 
-.category-main {
-  font: 16px;
-  color: #FF0500;
-  text-transform: uppercase;
-  text-align: center;
-}
+ }
 
-#story {
-  text-transform: uppercase;
-  color:black;
-  text-align: center;
-}
 
-.summary {
-  text-align: center;
-}
+ /* Media Queries  */
 
-a {
-  color:inherit;
-}
+ @media only screen and (min-width: 768px) {
+    .info {
+      margin-top: -150px;
 
-.info {
-  border-top: 4px solid #ff0500;
-  padding: 15px 30px 25px;
-  position: relative;
-}
-
-@media only screen and (max-width:767px) {
-  .wrapping {
-    padding-left: 0;
-    padding-right: 0;
+    }
   }
-}
 
-@media only screen and (min-width: 768px){
-  .info {
-    margin-top: -150px;
-  }
-  .glass {
-    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+  @media only screen and (min-width: 768px) {
+    .glass {
+      background-image: linear-gradient(to bottom,rgba(255,255,255,.5) 0,#fff 50%,#fff 100%);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height:155px;
+    height: 155px;
+    }
   }
-}
-
-@media only screen and (min-width: 992px){
-  .category-main {
-    font-size: 22px;
-  }
-}
-
-/* ----------------------- */
-
-/* Main Horizontal Divider- after main pic */
-
-.main-horizontal-divider {
-  width: 100%;
-  border-bottom:1px solid #f2f2f2;
-}
-
-/* ----------------------- */
-
-/* Vertical Divider */
-.vertical-divider {
-  border-right:1px solid #f2f2f2;
-}
-
-@media only screen and (min-width: 768px){
-  .vertical-divider {
-    height: 600px;
-  }
-}
-
-@media only screen and (min-width: 992px){
-  .vertical-divider {
-    height: 600px;
-  }
-}
-
-@media only screen and (min-width: 1200px){
-  .vertical-divider {
-    height: 800px;
-  }
-}
 
 
-/* ----------------------- */
 
-/* Sub Main Content */
+ @media only screen and (min-width: 767px) {
+    .info-wrapper {
+       
+        position: relative;
+        font-size: 25px;
+        top: 25px;
+    }
 
-.sub-box {
-  margin-top: 15px;
-  border-bottom:1px solid #f2f2f2;
-}
+ }
 
-.category-main.blue {
-  color: #00B7FF;
-}
+ @media only screen and (max-width: 992px) {
+ 	.sidebar {
+ 		text-align: center;
+ 		width: 100%;
+ 		border-top: 1px solid #e5e5e5;
+ 		background-color: #f7f7f7;
+ 	}	
+ }
 
-#blue-background {
-  border: 1px solid #cdf0ff;
-  background-color: #e6ffff;
-}
-
-@media only screen and (max-width: 767px){
-  .sub-box {
-    height: 630px;
-  }
-  #blue-background {
-    height: 615px;
-  }
-}
-
-@media only screen and (min-width: 768px){
-  .sub-box {
-    height: 550px;
-  }
-  #blue-background {
-    height: 535px;
-  }
-}
-
-@media only screen and (min-width: 992px){
+ @media only screen and (min-width: 992px) {
   .sub-box {
     height: 670px;
   }
-  #blue-background {
-    height: 555px;
-  }
-}
+ }
 
-@media only screen and (min-width: 1200px){
+ @media only screen and (max-width: 767px) {
   .sub-box {
-    height: 690px;
+    height: 630px;
   }
-  #blue-background {
-    height: 675px;
+ }
+
+
+ @media only screen and (min-width: 992px) {
+     .category-main {
+         font-size: 22px;
+     }
+ }
+
+ @media only screen and (max-width: 767px) {
+  .info-wrapper {
+    background-color: #fff;
   }
-}
+ }
 
+ 
 
-
-
-
-
-
-
-
-
-
-
+ 

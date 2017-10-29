@@ -28,6 +28,8 @@
 
 /* Subscribe to Newsweek */
 
+
+
 .nav li #circular-image {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -302,6 +304,10 @@ form .form-submit:hover {
 
 #background-black{
   background-color: black;
+}
+
+.navbar-static-top {
+  margin-bottom: 0;
 }
 
 /* ----------------------- */
